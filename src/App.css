@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.same-props{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.components{
+    width: 500px;
+}
+
+
+.imput-same{
+   width: 100%;
+}
+
+
+.todo-button{
+    margin-top: 5px;
+    padding: 8px 15px;
+    outline: none;
+    border: none;
+    background-color: #607D8B;
+    color: #ffff;
+    cursor: pointer;
+}
+.input-area{
+    outline: none;
+    border: none;
+    border-bottom: black 1px solid;
+   
+}
+.todos{
+    width: 100%;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-top: 30PX;
+    padding: 8px 15px;
+}
+
